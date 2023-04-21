@@ -13,15 +13,14 @@ Para este data challenge buscamos sacar el LTV (lifetime value) de los usuarios.
 Y la metrica:
 
 - Average Revenue Per User:
-    
-    Volumen proceasdo (en USD) / total users.
+    - Volumen proceasdo (en USD) / total users.
     
 
 Una vez obtenida esta información, el LTV se puede calcular como = ARPU / CHURN. 
 
 Para calcular las métricas, se utilizaran las siguientes tablas en formato csv, donde haciendo click sobre el nombre comenzará la descarga:
 
-**[Users:]**
+**Users:**
 
 - Es una tabla con información sobre el usuario, las columnas son:
     - user_id: el id del usuario
@@ -29,7 +28,7 @@ Para calcular las métricas, se utilizaran las siguientes tablas en formato csv,
     - birthdate: fecha de nacimiento
     - createdat: fecha de creacion de la cuenta
 
-**[Transactions]:** 
+**Transactions:** 
 
 - Tabla con información sobre las transacciones de los usuarios en la tabla users, columnas:
     - id: id de la transaccion
@@ -41,7 +40,7 @@ Para calcular las métricas, se utilizaran las siguientes tablas en formato csv,
     - currency: moneda en la que fue hecha la transaccion
     - createdat: momento en que fue hecha la transaccion
 
-**[Rates:]**
+**Rates:**
 
 - Tabla con información sobre los tipo de cambios que hay entre monedas. Sirve para pasar las unidades a dólares, columnas:
     - base_currency: moneda que se vende
